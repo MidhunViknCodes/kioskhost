@@ -85783,7 +85783,7 @@ l=A.bY(J.S(n.a,"companyId"))
 a5=A.bY(J.S(n.a,"branchId"))
 k=a5==null?1:a5
 j=A.fw(J.S(n.a,"user_id"))
-i="https://www.api.viknbooks.in/api/v10/posholds/create-pos/salesOrder/"
+i="https://www.saudiserver.viknbooks.com/api/v10/posholds/create-pos/salesOrder/"
 h=31
 if(o.rx.k(0,!0)){h=32
 o.x1="VAT"}else if(o.ry.k(0,!0)){h=22
@@ -85858,7 +85858,7 @@ k=A.bY(J.S(l.a,"companyId"))
 a=A.fw(J.S(l.a,"branchID"))
 j=a==null?1:a
 A.fw(J.S(l.a,"user_id"))
-i="https://www.api.viknbooks.in/api/v10/posholds/view/pos-sale/invoice/"+a5+"/"
+i="https://www.saudiserver.viknbooks.com/api/v10/posholds/view/pos-sale/invoice/"+a5+"/"
 h="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY1NzA2MTU0LCJpYXQiOjE3MzQxNzAxNTQsImp0aSI6IjQ0YWZiMWViZGRjYzRmN2VhZDBkM2I4YjExMTZlMGQ0IiwidXNlcl9pZCI6MTU3Mn0.TQieNE55_5n2XYe1zDwa8aRlLLkPB31UnGuMZ88STxSpeFLKXWT9TleQ-d7CMjVESpz8nPGn1xPuym6rdS30FctJtgIfcnwjWsGw4BS7mx2vAxFPSf5wKNZ5lDIqQpdCK54xF85afUQ7n2sMjWrO70rvzTtHjmXEfrShwNoGsgcatSR8qYdxlExFfKd3x5RQ-iPdzFjyql-T9mnXA6Kjsop1LRsxMLGuc4XDKoCr1wLsnQcEoivhnjgl3SuLm9V6idPE9hTsaQxvUreLvC6UmdZqPCp93dpwq26GpdIOAUBxO__VPZEsYoxSTfpFNdE5NACgMMdIOH7XK0XCYsBfyPs1p1Z6IpjTn2wcPiI2mRkG0xuJBx-k_EPSsA0H2PbVH_j1qVghbPFdbmiZGJ3h-5_kOqC-DDJOutJdfYYYJtHtrCP_PGn6MDB8BrV-UFqQVM0Ib04sg-O8DS14YsDOAQ5dVULj8LlZYBxnMyvBmq_fXX9UtuUTi4Iclqpnn2gEZD1V4TU0qC3qp37bQCT3jNDNMv0LFlGScg_EprBt4HUMCc4o-k6Jakd4qnXmZMh-2BRWakyPlet_rVnZDPXL6LOLX-yy4dRrlK4FHvBQPoSweSkNVWODSo9Jr08cwX4tUX6om1WZAdefBnSpMRPU0zj_Jzz9akHuLDa200DRIbk"
 A.cE("------"+("url invoice list "+A.i(i)),"")
 a0=t.N
@@ -85951,7 +85951,7 @@ case 7:l=a1
 k=A.bY(J.S(l.a,"companyId"))
 A.cE("------"+("func "+A.i(k)),"")
 A.bY(J.S(l.a,"branchId"))
-j=A.f4("https://www.api.viknbooks.in/api/v11/posholds/product-group-list/?CompanyID="+b+"&BranchID="+a,0,null)
+j=A.f4("https://www.saudiserver.viknbooks.com/api/v11/posholds/product-group-list/?CompanyID="+b+"&BranchID="+a,0,null)
 A.cE("------"+("url pgroup "+A.i(j)),"")
 f=t.N
 s=8
@@ -86002,7 +86002,7 @@ return A.O(A.j8(),$async$mC)
 case 7:l=a1
 k=A.bY(J.S(l.a,"companyId"))
 j=A.bY(J.S(l.a,"branchId"))
-i=A.f4("https://www.api.viknbooks.in/api/v11/posholds/product-list/?CompanyID="+A.i(k)+"&BranchID="+A.i(j)+"&GroupID="+a,0,null)
+i=A.f4("https://www.saudiserver.viknbooks.com/api/v11/posholds/product-list/?CompanyID="+A.i(k)+"&BranchID="+A.i(j)+"&GroupID="+a,0,null)
 A.cE("------"+("productlist url "+A.i(i)),"")
 e=t.N
 s=8
@@ -86050,7 +86050,7 @@ c=A.bY(e.h(f,"branchId"))
 f=m.ay
 f.sj(0,!0)
 p=5
-l=A.f4("https://www.api.viknbooks.in/api/v10/flavours/flavours/",0,null)
+l=A.f4("https://www.saudiserver.viknbooks.com/api/v10/flavours/flavours/",0,null)
 e=t.N
 h=A.aB(["Content-Type","application/json","Authorization","Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5OTI2ODQ0LCJpYXQiOjE3MjgzOTA4NDQsImp0aSI6IjYzOTRkZGJhN2QzNTQ5MzBhMjQ2NjIwZDk2MzFjMGE5IiwidXNlcl9pZCI6ODY4fQ.DADAPo1oabvG42JS0HEthHKQ2yF8LBm4GD5acqU3EdNSmYxiSQ8mJWUwt8_STqAdikVzM5c7TCdo54RqUlnx5SK-UzUDW0a1L8tYybyZjEmB124t6joni-OvHqiDbj4KAs989QC8Md23RY5RzzCxL4pWehLXndEc0vxOPsJZxPUmxKx7zDqgLKtmuni2iMkFTmtsYmgCAr_4F3P6h8oCwTUjKKqObcpsgGsP1fyt6-Ao4c5rjYzNuY4eT5sUCtbBvWk9LTaLLqqkXTQSg6e1KfxtywRyepTi29VZZMrJvzxuFADDzcHv9YqvO0uYHYNjjbQwVxI8GoC8uMMwodt46YFWF6vmrGvZWcZTe121879JwNfOIJbTb3bB34yCqJlBdzzqeQrL7K7d2eLF4-YoIcj2w2TksfeV9Z3lCxv0cMxu1ZfPplUcSOjeMIK60rzjUuMcIkbZHk6N8Wqw8WZ8IChpmMQQlW12i43wyUtQJzva7Wg9im3TlAk83xYGEq9Glc-J0-jYNPfp2Utj4W6JH5aBvimXvoPxwSUaBuLuGKq-s_fm8y11aVDiPT9BUyfJ01R3xTDI5rDV3nTPg7MuDBdNtt-9EN9RDQmvSg7xZZgHzDreyo8eYLBkJxFHkFDoAMDm4PHM9-nL6fBrqNiBdp2Pg8vvoHUM76bGWQeUUB4"],e,e)
 s=8
