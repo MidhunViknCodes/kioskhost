@@ -85940,49 +85940,49 @@ return A.O(c.xX("String","selectedLanguage",a),$async$oV)
 case 2:return A.J(null,r)}})
 return A.K($async$oV,r)},
 uO(a,b){return this.aly(a,b)},
-aly(a,b){var s=0,r=A.L(t.pq),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e,d,c
-var $async$uO=A.M(function(a0,a1){if(a0===1){o=a1
-s=p}while(true)switch(s){case 0:d=m.ax
-d.sj(0,!0)
+aly(a,a0){var s=0,r=A.L(t.pq),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e,d,c,b
+var $async$uO=A.M(function(a1,a2){if(a1===1){o=a2
+s=p}while(true)switch(s){case 0:c=m.ax
+c.sj(0,!0)
 p=4
 s=7
 return A.O(A.j8(),$async$uO)
-case 7:l=a1
+case 7:l=a2
 k=A.bY(J.S(l.a,"companyId"))
 A.cE("------"+("func "+A.i(k)),"")
-A.bY(J.S(l.a,"branchId"))
-j=A.f4("https://www.saudiserver.viknbooks.com/api/v11/posholds/product-group-list/?CompanyID="+b+"&BranchID="+a,0,null)
-A.cE("------"+("url pgroup "+A.i(j)),"")
-f=t.N
+j=A.bY(J.S(l.a,"branchId"))
+i=A.f4("https://www.saudiserver.viknbooks.com/api/v11/posholds/product-group-list/?CompanyID="+A.i(k)+"&BranchID="+A.i(j),0,null)
+A.cE("------"+("url pgroup "+A.i(i)),"")
+e=t.N
 s=8
-return A.O(A.aIW(j,A.aB(["Content-Type","application/json"],f,f)),$async$uO)
-case 8:i=a1
-A.cE("------"+i.b,"")
-f=i
-A.cE("------"+A.IR(J.S(A.IL(f.e).c.a,"charset")).cP(0,f.w),"")
-if(i.b===200){h=B.aI.qh(0,B.Y.cP(0,i.w),null)
-if(J.e(J.S(h,"StatusCode"),6000)){f=m.ch
-f.sj(0,A.aRM(h))
-if(f.gj(0).b.length!==0)m.mC(J.a9(f.gj(0).b[0].b))
+return A.O(A.aIW(i,A.aB(["Content-Type","application/json"],e,e)),$async$uO)
+case 8:h=a2
+A.cE("------"+h.b,"")
+e=h
+A.cE("------"+A.IR(J.S(A.IL(e.e).c.a,"charset")).cP(0,e.w),"")
+if(h.b===200){g=B.aI.qh(0,B.Y.cP(0,h.w),null)
+if(J.e(J.S(g,"StatusCode"),6000)){e=m.ch
+e.sj(0,A.aRM(g))
+if(e.gj(0).b.length!==0)m.mC(J.a9(e.gj(0).b[0].b))
 else A.eE("Failed")
-f=f.gj(0)
-q=f
+e=e.gj(0)
+q=e
 n=[1]
 s=5
-break}else A.eE("Failed: "+A.i(J.S(h,"StatusCode")))}else A.eE("Failed with status: "+i.b)
+break}else A.eE("Failed: "+A.i(J.S(g,"StatusCode")))}else A.eE("Failed with status: "+h.b)
 n.push(6)
 s=5
 break
 case 4:p=3
-c=o
-g=A.aq(c)
-A.eE("Errors: "+A.i(g))
+b=o
+f=A.aq(b)
+A.eE("Errors: "+A.i(f))
 n.push(6)
 s=5
 break
 case 3:n=[2]
 case 5:p=2
-d.sj(0,!1)
+c.sj(0,!1)
 s=n.pop()
 break
 case 6:q=null
