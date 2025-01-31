@@ -86757,7 +86757,7 @@ return new A.V8(A.hh(s,A.BI(),t.yR),A.hh(s,A.oa(),t.eg))}}
 A.V8.prototype={
 aq(){this.d.uS(J.a7(this.a.c))
 this.aL()},
-P(a){var s,r=this,q=null,p=A.bT(a,q,t.w).w.a,o=p.a,n=t.p,m=A.dj(A.a([A.cn(A.a([A.Am(B.jD,new A.ar7(),q),A.i_(A.nh(A.aF(A.bz("Invoice"),q,q,q,A.aI().$1$textStyle(A.aj(q,q,B.j,q,q,q,q,q,q,q,q,16,q,q,B.O,q,q,!0,q,q,q,q,q,q,q,q)),q,q),q,q),1),A.dT(q,A.cn(A.a([A.w9("assets/svg/lang.svg",B.ae,B.bU,q,q),A.be(q,q,o*0.01),new A.dl(new A.ar8(r,a),q)],n),B.t,B.L,B.v),B.K,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.ar9(r),q,q,q,q,q,q)],n),B.t,B.aa,B.v),A.i_(new A.dl(new A.ara(r,a,p),q),1)],n),B.t,B.L,B.v),l=A.ks(q,q,B.l,q,q,q,q,q,q,q,q,B.cw,q,q,new A.cm(A.di(30),B.fs),q,q,q,q)
+P(a){var s,r=this,q=null,p=A.bT(a,q,t.w).w.a,o=p.a,n=t.p,m=A.dj(A.a([A.cn(A.a([A.Am(B.jD,new A.ar7(),q),A.i_(A.nh(A.aF(A.bz("Invoice"),q,q,q,A.aI().$1$textStyle(A.aj(q,q,B.j,q,q,q,q,q,q,q,q,16,q,q,B.O,q,q,!0,q,q,q,q,q,q,q,q)),q,q),q,q),1),A.dT(q,A.cn(A.a([A.w9("assets/svg/lang.svg",B.ae,B.bU,q,40),A.be(q,q,o*0.01),new A.dl(new A.ar8(r,a),q)],n),B.t,B.L,B.v),B.K,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.ar9(r),q,q,q,q,q,q)],n),B.t,B.aa,B.v),A.i_(new A.dl(new A.ara(r,a,p),q),1)],n),B.t,B.L,B.v),l=A.ks(q,q,B.l,q,q,q,q,q,q,q,q,B.cw,q,q,new A.cm(A.di(30),B.fs),q,q,q,q)
 l=A.i_(A.lC(A.aF(A.bz("Make Another Order"),q,q,q,A.aI().$1$textStyle(A.aj(q,q,B.fC,q,q,q,q,q,q,q,q,14,q,q,B.am,q,q,!0,q,q,q,q,q,q,q,q)),q,q),new A.arb(r),l),1)
 o=A.be(q,q,o*0.02)
 s=A.ks(q,q,B.ae,q,q,q,q,q,q,q,q,B.cw,q,q,new A.cm(A.di(30),B.ft),q,q,q,q)
@@ -87048,7 +87048,7 @@ $0(){A.Ac($.aW(),B.k6,null,t.z)},
 $S:0}
 A.a0H.prototype={
 P(a){var s=null,r=t.p
-return A.cn(A.a([A.w9("assets/svg/logo.svg",s,B.bU,s,100),A.dT(s,A.cn(A.a([A.w9("assets/svg/lang.svg",B.ae,B.bU,s,s),A.be(s,s,this.c.a*0.01),new A.dl(new A.axu(this,a),s)],r),B.t,B.L,B.v),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.axv(this),s,s,s,s,s,s)],r),B.t,B.aa,B.v)}}
+return A.cn(A.a([A.w9("",s,B.bU,s,100),A.dT(s,A.cn(A.a([A.w9("assets/svg/lang.svg",B.ae,B.bU,s,40),A.be(s,s,this.c.a*0.01),new A.dl(new A.axu(this,a),s)],r),B.t,B.L,B.v),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.axv(this),s,s,s,s,s,s)],r),B.t,B.aa,B.v)}}
 A.axv.prototype={
 $0(){var s=0,r=A.M(t.H),q=this,p,o
 var $async$$0=A.N(function(a,b){if(a===1)return A.J(b,r)
@@ -87084,7 +87084,7 @@ this.r=s==null?A.a([],t.n4):s},
 m(){this.w.m()
 this.x.m()
 this.aE()},
-P(a){var s=this,r=null,q=A.bT(a,r,t.w).w.a,p=q.b,o=p*0.01,n=A.be(r,o,r),m=t.p,l=A.cn(A.a([A.cn(A.a([A.Am(B.jD,new A.avr(s),r),A.aF(A.bz("userinfo"),r,r,r,A.aI().$1$textStyle(A.aj(r,r,B.j,r,r,r,r,r,r,r,r,20,r,r,B.O,r,r,!0,r,r,r,r,r,r,r,r)),r,r)],m),B.t,B.L,B.v),A.dT(r,A.cn(A.a([A.w9("assets/svg/lang.svg",B.ae,B.bU,r,r),A.be(r,r,q.a*0.01),new A.dl(new A.avs(s,a),r)],m),B.t,B.L,B.v),B.K,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.avt(s),r,r,r,r,r,r)],m),B.t,B.aa,B.v),k=A.be(r,p*0.2,r),j=A.aF(A.bz("pleaseenteryournameandphone"),r,r,r,A.aI().$1$textStyle(A.aj(r,r,B.el,r,r,r,r,r,r,r,r,14,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),r,r),i=A.be(r,o,r),h=A.aI().$1$textStyle(A.aj(r,r,B.j,r,r,r,r,r,r,r,r,12,r,r,B.B,r,r,!0,r,r,r,r,r,r,r,r)),g=A.a([new A.Yk(new A.avv())],t.VS),f=A.bz("Enter Your Name")
+P(a){var s=this,r=null,q=A.bT(a,r,t.w).w.a,p=q.b,o=p*0.01,n=A.be(r,o,r),m=t.p,l=A.cn(A.a([A.cn(A.a([A.Am(B.jD,new A.avr(s),r),A.aF(A.bz("userinfo"),r,r,r,A.aI().$1$textStyle(A.aj(r,r,B.j,r,r,r,r,r,r,r,r,20,r,r,B.O,r,r,!0,r,r,r,r,r,r,r,r)),r,r)],m),B.t,B.L,B.v),A.dT(r,A.cn(A.a([A.w9("assets/svg/lang.svg",B.ae,B.bU,r,40),A.be(r,r,q.a*0.01),new A.dl(new A.avs(s,a),r)],m),B.t,B.L,B.v),B.K,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.avt(s),r,r,r,r,r,r)],m),B.t,B.aa,B.v),k=A.be(r,p*0.2,r),j=A.aF(A.bz("pleaseenteryournameandphone"),r,r,r,A.aI().$1$textStyle(A.aj(r,r,B.el,r,r,r,r,r,r,r,r,14,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),r,r),i=A.be(r,o,r),h=A.aI().$1$textStyle(A.aj(r,r,B.j,r,r,r,r,r,r,r,r,12,r,r,B.B,r,r,!0,r,r,r,r,r,r,r,r)),g=A.a([new A.Yk(new A.avv())],t.VS),f=A.bz("Enter Your Name")
 o=A.dj(A.a([n,l,k,j,i,A.aG8(!0,s.e.e3,B.n0,A.azm(r,r,r,r,r,r,r,r,!0,B.ih,r,r,r,r,r,B.z,!0,r,r,r,r,B.ih,r,r,r,r,r,r,r,A.aI().$1$textStyle(A.aj(r,r,B.el,r,r,r,r,r,r,r,r,12,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),f,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r),s.w,g,r,!1,new A.avw(s,a),h,B.b5,B.zW,new A.avx(s)),A.be(r,p*0.02,r),new A.dl(new A.avy(s,a),r),A.be(r,o,r),A.dT(r,A.cn(A.a([new A.dl(new A.avz(s),r),new A.dl(new A.avA(s,a),r)],m),B.t,B.ug,B.v),B.K,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.avB(s),r,r,r,r,r,r)],m),B.bi,B.L,B.v)
 return A.vH(A.kX(B.cj,A.a([A.aFN(new A.bq(B.aK,new A.A5(o,B.lX,s.f),r),r),new A.fA(B.lS,r,r,new A.bq(B.aK,A.dT(r,A.a2U(B.ae,new A.dl(new A.avC(s),r),30),B.K,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.avu(s,a),r,r,r,r,r,r),r),r)],m),B.X,B.cd),r)}}
 A.avr.prototype={
