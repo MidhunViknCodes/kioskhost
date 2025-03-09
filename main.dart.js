@@ -86248,7 +86248,9 @@ return A.L($async$rH,r)},
 AS(){var s=0,r=A.M(t.z),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6
 var $async$AS=A.N(function(b7,b8){if(b7===1){p=b8
 s=q}while(true)switch(s){case 0:q=3
-n="https://midhunvikncodes.github.io/kioskhost/?CompanyID=bdff71f1-df2f-4d49-9f83-45cf6af65084&BranchID=1&userID=1572&Country=SA&val=0"
+a9=window.location.href
+a9.toString
+n=a9
 A.bN("------"+A.i(n),"")
 o.fx.sj(0,n)
 m=n
